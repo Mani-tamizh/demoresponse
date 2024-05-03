@@ -1,0 +1,142 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Okra, Helvetica, sans-serif;
+}
+}
+.container{
+	height: 100vh;
+	width: 100%;
+	box-sizing: border-box;
+}
+.header
+{
+	height: 570px;
+	width: 100%;
+	background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+	background-position: center;
+	background-size: cover;
+}
+.profile
+{
+	height: 50px;
+	width: 100%;
+	display: flex;
+}
+.profile .empty
+{
+	width: 60%;
+}
+.profile .info
+{
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.profile .bar
+{
+	display: none;
+}
+.profile a img
+{
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+}
+.info a
+{
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 24px;
+	margin-right: 20px;
+}
+.fa-solid.fa-angle-down
+{
+	font-size: 18px;
+}
+.back
+{
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.back img
+{
+	height: 60px;
+	width: auto;
+	margin-bottom: 20px;
+}	
+.back p
+{
+	margin-top: 10px;
+	font-size: 36px;
+	color: whitesmoke;
+	font-weight: light;
+	letter-spacing: 2px;
+}
+@media (max-width:975px)
+{
+.profile .empty
+{
+	width: 48%;
+}
+.profile .info
+{
+	width: 52%;
+}
+.profile .bar
+{
+	display: none;
+}
+}
+@media (max-width:768px)
+{
+	.empty
+	{
+		display: none;
+	}
+	.profile .info
+	{
+		display: none;
+	}
+	.profile .bar
+	{
+		display: block;
+	}
+	.profile
+	{
+		height: 50px;
+		width: 100%;
+		display: flex;
+		align-items: flex-start;
+	}
+	.bar
+	{
+		color: whitesmoke;
+		font-size: 22px;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+}
+@media (max-width:481px)
+{
+	.header
+	{
+		height: 400px;
+	}
+	.back img
+	{
+		height: 40px;
+		width: auto;
+	}	
+	.back p
+	{
+		font-size: 20px;
+	}
+}
